@@ -1,0 +1,40 @@
+.Work {
+  header {
+    display: flex;
+    // padding-bottom: 25px;
+    // border-bottom: 1px dashed #CCC;
+    margin-bottom: 25px;
+
+    .Work-logoMatted {
+      align-self: flex-end;
+      flex-shrink: 0;
+      width: 175px;
+      height: auto;
+      margin-right: 50px;
+    }
+
+    .Work-introWrap {
+      flex-grow: 1;
+
+      .Work-intro1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .Work-intro2 {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1.1;
+      }
+
+      .Work-intro3 {
+        margin-top: 15px;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        line-height: 1.25;
+      }
+    }
+  }
+}
