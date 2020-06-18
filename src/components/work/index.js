@@ -38,6 +38,8 @@ export default function Work() {
               happen.
             "
             tags={[GAMEDEV, REACT, RESPONSIVE]}
+            sourceLink="https://github.com/rmisio/tetris"
+            projectLink="https://tetris.robmisio.com/"
             imageAspectRatio={88.71}
             images={[
               {
