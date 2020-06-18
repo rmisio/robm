@@ -1,12 +1,17 @@
+@import '~sass-mq';
+@import 'src/styles/variables.scss';
+
 .Work {
   header {
     display: flex;
-    // padding-bottom: 25px;
-    // border-bottom: 1px dashed #CCC;
-    margin-bottom: 25px;
+    margin-bottom: 90px;
+
+    @include mq($until: medium) {
+      // display: block;
+    }
 
     .Work-logoMatted {
-      align-self: flex-end;
+      align-self: center;
       flex-shrink: 0;
       width: 175px;
       height: auto;
@@ -18,7 +23,8 @@
 
       .Work-intro1 {
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 11px;
+        font-size: 1.2rem;
       }
 
       .Work-intro2 {
@@ -34,6 +40,20 @@
         margin-bottom: 0;
         font-size: 1.2rem;
         line-height: 1.25;
+      }
+    }
+  }
+
+  .Work-portfolio {
+    .Work-portfolioItem-tetris {
+      .LazyLoadImage {
+        // width: 465px;
+        // height: 413px;
+        width: 420px;
+        // max-width: 465px;
+        // height: 0;
+        // overflow: hidden;
+        // background-color: pink;
       }
     }
   }

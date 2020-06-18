@@ -1,8 +1,9 @@
 import React from "react";
-import Work from "./work";
+import Work from "src/components/work/";
 
-// todo: not liking the FOUT, maybe https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts
-//   will help?
+// todo: not loving the FOUT :(
+// todo: move Page to components folder
+// todo: 404 page
 
 export default function Home() {
   return <Work />;

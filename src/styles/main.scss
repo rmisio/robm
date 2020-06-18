@@ -1,11 +1,18 @@
+@import '~sass-mq';
+@import './variables.scss';
+
 body {
-  max-width: 740px;
-  padding: 25px;
-  margin: 0 auto;
   font-size: 18px;
   background-color: rgb(248, 243, 239);
   color: rgb(52, 52, 52);
   font-family: khula, sans-serif;
+  padding: 25px;
+  min-height: 1500px
+}
+
+.Page {
+  max-width: 740px;
+  margin: 0 auto;
 }
 
 ul.unstyled {
